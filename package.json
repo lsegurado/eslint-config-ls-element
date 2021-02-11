@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-ls-element",
-  "version": "0.0.2",
+  "name": "@lsegurado/eslint-config-ls-element",
+  "version": "0.0.1",
   "description": "Base ESLint configuration for LS-Element projects.",
   "keywords": [
     "eslint",
