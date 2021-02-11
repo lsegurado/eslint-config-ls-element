@@ -21,10 +21,10 @@
     "dist"
   ],
   "scripts": {
-    "build": "microbundle -f es,cjs --target node --no-sourcemap index.js",
+    "build": "microbundle -f es,cjs --target node --no-sourcemap src/index.js",
     "publish-patch-version": "npm version patch && npm run publish-npm",
     "publish-npm": "npm run build && npm publish --access public",
-    "lint": "eslint --fix src/**/*{.ts,.tsx}"
+    "lint": "eslint --fix src/**/*.js"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
